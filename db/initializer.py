@@ -23,3 +23,7 @@ def init_database():
                 print(e)
             else:
                 print("Done... 🐯")
+
+
+if __name__ == "__main__":
+    init_database()
