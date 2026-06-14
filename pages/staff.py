@@ -22,7 +22,7 @@ class StaffUI:
 
     def staff_list(self, staff_list):
         df = pd.DataFrame(staff_list)
-        df.columns = ["name", "designation"]
+        df.columns = ["id", "name", "designation"]
 
         col1, col2 = st.columns([5, 1])
         with col1:
