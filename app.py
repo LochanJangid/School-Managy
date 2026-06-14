@@ -10,5 +10,5 @@ def home():
         ## A Simple & Clean but with vast Database Structure 💪.
     """)
 
-pg = st.navigation([ "pages/student.py", "pages/staff.py", home])
+pg = st.navigation(["pages/student.py", "pages/transaction.py", "pages/staff.py", home])
 pg.run()    
