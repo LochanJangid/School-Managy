@@ -31,7 +31,7 @@ class StaffBackend:
          
         try:
             staff_list = self.db.query("""
-                SELECT name, designation FROM Staff;
+                SELECT id, name, designation FROM Staff;
             """, operation="fetchall")
             return staff_list
         except DatabaseError as e:
